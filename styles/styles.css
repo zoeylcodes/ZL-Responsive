@@ -1,8 +1,58 @@
-/*font-family: 'Righteous', cursive;
-font-family: 'Righteous', cursive;
-*/
+:root {
+  --brading-color: #6c63ff;
+  --heading-font-family: "playfair Display", serif;
+  --default-font-family: "poppins", sans-serif;
+  --secondary-color: #f9f7fe;
+}
 
-h1 {
-  font-family: "Righteous", cursive;
-  background-color: yellow;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: black;
+}
+body {
+  font-family: var(--default-font-family);
+}
+p {
+  font-family: "poppins", sans-serif;
+  font-weight: normal;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  margin: 0;
+}
+.hero h1 {
+  font-size: 96px;
+  font-weight: bold;
+  font-weight: 700;
+  line-height: 128px;
+}
+
+.hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: normal;
+  font-weight: 400;
+  line-height: 2;
+}
+.btn.btn-branding {
+  background-color: var(--brading-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 30px;
 }
