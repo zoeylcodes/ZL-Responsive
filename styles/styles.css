@@ -48,6 +48,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
+  color: #272142;
 }
 
 .hero h1 {
@@ -104,6 +105,11 @@ p {
 .projectDescription {
   padding: 120px 60px;
   text-align: center;
+}
+
+.container-fluid {
+  font-weight: 500;
+  color: black;
 }
 
 @media (max-width: 900px) {
