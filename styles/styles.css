@@ -4,6 +4,19 @@
   --default-font-family: "Poppins", sans-serif;
   --secondary-color: #f9f7fe;
 }
+.navbar.navbar-expand-lg.bg-body-tertiary {
+  padding: 0px;
+}
+.container-fluid {
+  background-color: white;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+.active {
+  color: var(--branding-color) !important;
+}
 
 h1,
 h2,
@@ -88,7 +101,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .btn.btn-branding {
