@@ -64,23 +64,23 @@ p {
   font-size: 24px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: bold;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
 
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
 
@@ -136,7 +136,7 @@ p {
     padding: 80px 10px;
   }
 
-  .about-section {
+  .content-container {
     padding: 0px;
     text-align: center;
   }
