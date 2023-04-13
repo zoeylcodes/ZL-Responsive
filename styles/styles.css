@@ -29,7 +29,7 @@ h6 {
   font-weight: bold;
 }
 
-h4 {
+h3 {
   font-size: 48px !important;
   font-family: var(--heading-font-family);
   color: black;
@@ -108,7 +108,7 @@ p {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 60px 20px;
 }
 
 .btn.btn-branding {
@@ -175,8 +175,15 @@ footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
 }
+
+.bottom {
+  margin: 60px 0;
+  text-align: center;
+  color: gray;
+  font-family: var(--default-font-family);
+}
 @media (max-width: 900px) {
-  h4 {
+  h3 {
     font-size: 26px !important;
   }
 
@@ -200,7 +207,7 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 80px 10px;
+    padding: 60px 10px;
   }
 
   .content {
