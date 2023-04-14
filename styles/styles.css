@@ -61,7 +61,7 @@ p {
 .hero {
   background-color: var(--secondary-color);
   background-image: linear-gradient(
-      rgba(240, 240, 240, 0.8),
+      rgb(252, 248, 248),
       rgba(236, 233, 233, 0.7)
     ),
     url(/Images/curve-design-futuristic-lines-911738.jpg);
