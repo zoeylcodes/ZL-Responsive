@@ -1,24 +1,23 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: black;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #fbf8f5;
 }
 .navbar.navbar-expand-lg.bg-body-tertiary {
   padding: 0px;
 }
 .container-fluid {
-  background-color: white;
+  background-color: var(--secondary-color);
 }
 
 .nav-item {
-  padding: 0 20px;
+  padding: 0 15px;
 }
 .active {
   color: var(--branding-color) !important;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -27,6 +26,12 @@ h6 {
   font-family: var(--heading-font-family);
   color: black;
   font-weight: bold;
+}
+
+h1,
+h2 {
+  color: white !important;
+  text-shadow: 2px 2px 4px black;
 }
 
 h3 {
@@ -47,30 +52,53 @@ h3 {
   color: black;
   font-family: var(--heading-font-family);
 }
-body {
-  font-family: var(--default-font-family);
-  background-color: var(--secondary-color);
-}
+
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
-
-.hero {
-  background-color: var(--secondary-color);
+.sectionSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  text-align: center;
+}
+.nav-item {
+  color: white;
+}
+.skills li img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+body {
   background-image: linear-gradient(
-      rgb(252, 248, 248),
-      rgba(236, 233, 233, 0.7)
+      rgba(241, 220, 220, 0.5),
+      rgba(236, 229, 229, 0.5)
     ),
-    url(/Images/curve-design-futuristic-lines-911738.jpg);
+    url(/Images/mi-min-pkpqoBp11Jc-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 160px 20px;
 }
 
+.hero {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
 .hero p {
   font-size: 36px;
   font-weight: bold;
@@ -82,6 +110,7 @@ p {
   font-size: 96px;
   font-weight: bold;
   line-height: 1.5;
+  text-align: center;
 }
 
 .hero h2 {
@@ -89,6 +118,10 @@ p {
   font-weight: bold;
   line-height: 1.5;
   font-size: 24px;
+  text-align: center;
+}
+.hero button {
+  text-align: center;
 }
 
 .content h1 {
@@ -121,9 +154,9 @@ p {
 }
 
 .btn.btn-branding {
-  background-color: var(--branding-color);
+  background-color: #e6e0db;
   border-radius: 4px;
-  color: white;
+  color: black;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -191,6 +224,7 @@ footer .social-links a:hover {
   color: gray;
   font-family: var(--default-font-family);
 }
+
 @media (max-width: 900px) {
   h3 {
     font-size: 26px !important;
@@ -223,4 +257,12 @@ footer .social-links a:hover {
     padding: 0px;
     text-align: center;
   }
+}
+
+#aboutMeButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
