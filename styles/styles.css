@@ -81,8 +81,8 @@ p {
 }
 body {
   background-image: linear-gradient(
-      rgba(241, 220, 220, 0.5),
-      rgba(236, 229, 229, 0.5)
+      rgba(241, 220, 220, 0.6),
+      rgba(236, 229, 229, 0.6)
     ),
     url(/Images/mi-min-pkpqoBp11Jc-unsplash.jpg);
   background-repeat: no-repeat;
