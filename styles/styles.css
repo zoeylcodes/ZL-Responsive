@@ -28,10 +28,16 @@ h6 {
   font-weight: bold;
 }
 
-h1,
+h1 {
+  color: white !important;
+  text-shadow: 2px 2px 4px black;
+}
+
 h2 {
   color: white !important;
   text-shadow: 2px 2px 4px black;
+  font-size: 96px;
+  line-height: 1.5;
 }
 
 h3 {
